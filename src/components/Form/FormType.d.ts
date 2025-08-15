@@ -1,0 +1,7 @@
+import { CompType } from "./FormItemContent";
+
+export type SchamaType = {
+  type: CompType;
+  label: string;
+  componentProps?: Record<string, any>;
+};
